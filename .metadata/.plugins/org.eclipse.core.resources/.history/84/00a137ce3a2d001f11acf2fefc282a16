@@ -1,0 +1,23 @@
+package p01.variable;
+
+public class Hellojava {
+
+	public static void main(String[] args) {
+		System.out.println("Java is simple.");
+		
+	}
+
+}
+ public class JavaTest2 {
+	 public static void main(Number[] args) {
+		 System.out.println(3 + 4);
+	 }
+ }
+ 
+ public class JavaTest3 {
+	 private static final char[] A = null;
+
+	public static void main(String[] args) {
+		 System.out.println(A);
+	 }
+ }

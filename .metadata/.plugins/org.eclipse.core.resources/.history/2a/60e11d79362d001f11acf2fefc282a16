@@ -1,0 +1,31 @@
+package p01.variable;
+//class - 틀, template 
+//class안에는 - 변수+메소드()가 들어있다.
+public class P73VariableEx {
+     //CPU - RAM - SSD/HARD
+	
+	static int a ; // 전역변수는 초기화 필요없음.(기본값 0)
+	//static 붙은것 - RAM에있기때문에 곧바로 사용
+	static short c = 120; //static 변수
+	byte d = 12; //instance 변수 - 객체를 생성해서 사용
+	public static void main(String[] args) {
+		// 변수 value 선언
+		double dos = 10.0; // 지역변수는 반드시 값이있어야한다.(초기화)
+        int value = 0;
+        System.out.println(value);
+        int result = value+10;
+        System.out.println(result);
+        System.out.println(a);
+        System.out.println(P73VariableEx.a);
+              
+        
+        System.out.println(c);
+        System.out.println(P73VariableEx.c);
+        
+        //객체 생성 -RAM저장하면 cpu에서 실시간 실행 가능
+        P73VariableEx v = new P73VariableEx();
+        System.out.println(d);
+        System.out.println(P73VariableEx.d);
+	}
+
+}

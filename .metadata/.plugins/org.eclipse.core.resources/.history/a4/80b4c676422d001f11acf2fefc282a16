@@ -1,0 +1,12 @@
+package p02.primitive_Type;
+
+public class IntegerLiteralEx {
+ //Type - primitive(기본형ch02-2),reference(참조형:ch05)
+//	type variable = literial 
+	int      a    =   2000000000; 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    System.out.println(a);
+	}
+
+}

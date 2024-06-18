@@ -1,0 +1,16 @@
+package p01.variable;
+
+public class p73variableEx {
+
+	public static void main(String[] args) {
+	 // CUP - RAM - SSD/HDD
+     //type variable = literal
+       int        a  =  1; //기본형 변수 - 실제값
+       String   st = new String("홍길동");//참조형 변수-주소값
+       System.out.println(a);
+     //변수2가지 - 기본형(primitive:ch2-3), 참조형(reference:ch05),
+       String   st = new String("홍길동");//참조형 변수-주소값
+       System.out.println(st);
+	}
+
+}

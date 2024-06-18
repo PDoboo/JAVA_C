@@ -1,0 +1,15 @@
+package p02.primitive_Type;
+
+import java.io.PrintStream;
+
+public class IntegerLiteralEx {
+ //Type - primitive(기본형ch02-2),reference(참조형:ch05)
+//	type variable = literial 
+	int      a    =   2000000000; //전역변수이면서,인스턴스변수를 사용하려면 객체생성  
+	public static void main(String[] args) {
+	//객체생성- 변수를 메모리(RAM)에 위치시키면 cpu에 가지고가서 실행
+	IntegerLiteralEx ie = new IntegerLiteralEx(); //ch05 참조형변수-주소값이 들어있다
+	  System.out.println(ie.a);
+	}
+
+}

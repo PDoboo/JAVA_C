@@ -1,0 +1,11 @@
+package p01.basic;
+//Class -틀, (Template)
+public class StartEx1 {
+    //ma+ctrl+enter
+	public static void main(String[] args) {
+     
+	System.out.println("Java-Backend(서버),compile사용, 대소문자구분");
+     //syso+ctrl+enter 
+	 
+ }
+}

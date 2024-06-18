@@ -1,0 +1,19 @@
+package p02.primitive_Type;
+
+public class P83ByteEx {
+ public static void main(String[] args) { //byte 타입 변수
+	 byte var1 = -128;
+	 byte var2 = -30;
+	 byte var3 = 0;
+	 byte var4 = 30;
+	 byte var5 = 127;
+	 byte var6 = 127;//byte는 127까지만 입력 가능해서 128이면 에러발생 128을 127로 수정.
+	 
+	 System.out.println(var1);
+	 System.out.println(var2);
+	 System.out.println(var3);
+	 System.out.println(var4);
+	 System.out.println(var5);
+ 
+ }
+}

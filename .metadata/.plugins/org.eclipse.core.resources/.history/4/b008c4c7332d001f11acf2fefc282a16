@@ -1,0 +1,16 @@
+package p01.variable;
+
+public class P73VariableEx {
+
+	public static void main(String[] args) {
+		// 변수 value 선언
+		double dos = 10.0; // 지역변수는 반드시 값이있어야한다.
+        int value = 0;
+        System.out.println(value);
+        int result = value+10;
+        System.out.println(result);
+		
+		
+	}
+
+}
