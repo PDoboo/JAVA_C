@@ -1,0 +1,15 @@
+package p02.basic;
+//증가연산자(++), 감소(--) :연산방향 - 오른쪽에서 왼쪽으로 연산
+public class incre_Decr {
+
+	public static void main(String[] args) {
+		int a =3;
+		//++a;//4 오른쪽에서 왼쪽 3에서 ++만나서 4가됨 
+		//System.out.println(++a);//4
+		//a++;//3 오른쪽에서 왼쪽 ++이 3을 만남 아무일도없음
+		//System.out.println(a++);//3
+       ++a;
+       System.out.println(a);
+	}
+
+}

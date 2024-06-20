@@ -1,0 +1,6 @@
+package Ex;
+
+public class HelloAndro {
+
+	public static void main(String[] args) {
+		String str = "Hello, Android Application";

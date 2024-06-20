@@ -1,0 +1,15 @@
+package p01.variable;
+
+public class ConversionTest {
+
+	public static void main(String[] args) {
+	   byte var_byte1 =10;
+	   
+	   Conversion c =new Conversion();
+		 System.out.println(c.a);
+	    c.add();
+	   
+
+	}
+
+}

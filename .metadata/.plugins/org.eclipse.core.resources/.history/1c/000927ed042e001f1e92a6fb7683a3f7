@@ -1,0 +1,10 @@
+package p04.output;
+
+public class P115KeyCodeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

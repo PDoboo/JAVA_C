@@ -1,0 +1,23 @@
+package p04.output;
+
+import java.io.IOException;
+
+public class p113printf {
+
+	public static void main(String[] args) {
+		// 
+         int a =1; //기본형 변수- 실제값
+        String st = new String("홍길동");
+        System.out.println(st.charAt(0));
+        System.out.println(a);
+        System.out.print(st);
+        //변수 2가지- 기본형(primitive:ch02-3),참조형(reference:ch05)
+        try {
+        int num1 = System.in.read();//키보드 입력
+        System.out.println("num1:"+ num1);
+	} catch (IOException e) {
+       e.printStackTrace();		
+
+}
+}
+}

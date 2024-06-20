@@ -1,0 +1,18 @@
+package P124;
+
+public class P136 {
+
+	public static void main(String[] args) {
+		//논리부정연산자 true를 false로, false를 true로 변경하기 때문에 boolean타입에서만 사용가능
+		boolean play = true;
+		System.out.println(play);
+		
+		play = !play;
+		System.out.println(play);
+		
+		play = !play;
+		System.out.println(play);
+
+	}
+
+}

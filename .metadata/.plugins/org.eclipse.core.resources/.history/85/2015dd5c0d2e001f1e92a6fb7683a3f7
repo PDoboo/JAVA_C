@@ -1,0 +1,20 @@
+package p03.cast;
+
+public class P96PromotionEx {
+
+	public static void main(String[] args) {
+		// 자동타입변환
+      byte byteValue =10;
+      int intValue = byteValue;
+      System.out.println("intvalue:"+intValue);
+      
+      char charValue = '가';
+      intValue = charValue;
+      System.out.println("가의 유니코드:"+intValue);
+      
+      intValue = 50;
+      long longValue = intValue;
+      System.out.printLn()
+	}
+
+}

@@ -1,0 +1,64 @@
+package p04.output;
+
+import java.util.Scanner;//import는 java.lang을 제외한 패키지인 경우 표시
+
+public class P120ScannerEx {
+
+	public static void main(String[] args) {
+		//1번문제
+		//이름: 감자바
+		//나이: 25
+		//전화: 010-123-4567
+		String name ="감자바";
+		int age =25;
+		String tel1 = "010",tel2 ="123",tel3="4567";
+		System.out.println("이름:"+name);
+		System.out.println("나이:"+age);
+		System.out.println("전화:"+tel1+'-'+tel2+'-'+tel3);
+		
+		//2번문제
+		//키보드입력 -System.in.read();
+		//nextInt()를 사용한경우
+	    Scanner sc = new Scanner(System.in);
+		System.out.print("첫번째 수: ");
+        int i1 = sc.nextInt();
+        System.out.print("두번째 수: ");
+        int i2 = sc.nextInt();
+        System.out.println("덧셈결과:"+(i1+i2));
+        System.out.println();
+        sc.nextLine();//한번 더 써서 엔터를 친 흔적을 털어내줌
+        
+        //Scanner()-next(),nextLine(),nextLine()을 섞어서 입력하는경우 
+        //막줄에 nextLine()을 한번더 작성해 실행
+        
+        //nextline() 사용하면 문자열이 나옴
+        System.out.print("첫번째 수: ");
+        String i3 = sc.nextLine();
+       System.out.print("두번째 수: ");
+        String i4 = sc.nextLine();
+        int num1=Integer.parseInt(i3);
+        int num2=Integer.parseInt(i4);
+        System.out.println("덧셈결과:"+(num1+num2));
+        System.out.println();
+//             
+          //3번문제  
+//        [필수 정보 입력]
+//        1. 이름: 
+//        2. 주민번호 앞 6자리:
+//        3. 전화번호 :
+        System.out.printIn(["필수정보 입력"]);
+        System.out.printIn(["1.이름:"]);
+        String name = sc.nextLine();
+        System.out.printIn("2.주민번호 앞6자리:");
+        String no = sc.nextLine();
+        System.out.printIn("3.전화번호:");
+        String tel=sc.nextLine();
+         
+        System.out.println("이름: "+name);
+        System.out.println("주민번호 앞 6자리: "+num1);
+        System.out.println("전화번호: "+tel1+'-'+tel2+'-'+tel3);
+        
+//	}
+
+}
+}

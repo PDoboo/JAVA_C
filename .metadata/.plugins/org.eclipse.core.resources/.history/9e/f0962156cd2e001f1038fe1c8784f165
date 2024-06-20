@@ -1,0 +1,9 @@
+package P01.ifs;
+
+public class IfDiceEx {
+  public static void main(String[] agrs) {
+	  System.out.println(Math.random()*10);//class명이 math 고 메소드명이 random 범위:0.0 ~ 0.999범위 내에 불특정 수를 반환
+	  //주사위:1~6
+//	  Math.random()
+  }
+}

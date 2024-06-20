@@ -1,0 +1,27 @@
+package p04.output;
+
+import java.util.Scanner;
+
+//입력방법 - read(),scanner,argument인수(args)
+//Args 입력방법 사용하기
+public class ArgsEx {
+     //메소드
+	//string[]-string배열,string args[] =new String("80","90","50");
+	public static void main(String args[]) { //main메소드 프로그램시작을의미 args:parameter변수,지역변수
+		// kor,mat,eng : 점수입력
+//        args[0] = "80"
+//        args[1] = "90"
+//        args[2] = "50"
+	   총점:
+       평균:
+    	 System.out.println(args[0]);
+	     System.out.println(args[1]);
+	     System.out.println(args[2]);
+	     Scanner sc = new Scanner(System.in);
+	     System.out.println("총점"+args[0]+args[1]+args[2]);
+	
+	}
+   void puls(int a) { //a parameter변수,지역변수
+
+	      }
+}

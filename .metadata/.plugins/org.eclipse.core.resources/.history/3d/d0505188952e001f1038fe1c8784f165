@@ -1,0 +1,23 @@
+package p03.cast;
+
+public class P110var {
+
+	public static void main(String[] args) {
+//		long var1 =2L;
+//		float var2 = 1.8f;	
+//		double doublevar3 =2.5;
+//		int intValue =(int)doublevar3;
+//		int result2 = (int)(intValue);
+////		System.out.println(result2);
+//		
+		String var4 = "3.9";
+		//2+1.8+2.5+3.9=
+	     int value = Integer.parseInt(var4);
+    	System.out.println();
+		
+//		int result =(int) (var1+result2+var5);
+//				System.out.println(result);
+
+	}
+
+}

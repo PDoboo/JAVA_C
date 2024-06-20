@@ -1,0 +1,27 @@
+package P01.ifs;
+
+public class SwitchEx {
+	//switch문은 변수의 값에 따라 실행 되는점이 if문과 다른점
+	public static void main(String[] args) {
+     //Scanner에 영문자(대,소):A,a를 해도 똑같이 처리하겠다.		
+       switch (key) {
+       case 'A':{
+    	   System.out.println("A,a");
+    	   break;
+       }
+       case 'a':{
+    	   System.out.println("A,a");
+    	   break;
+       }
+       case 'B':{
+    	   System.out.println("A,a");
+    	   break;	
+       }
+       case 'b':{
+    	   System.out.println("A,a");
+    	   break;	
+       }
+    	   default: System.out.println("종료");
+}
+ }
+	}

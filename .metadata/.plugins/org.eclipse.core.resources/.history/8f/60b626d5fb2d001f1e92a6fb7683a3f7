@@ -1,0 +1,10 @@
+package p01.variable;
+
+public class Conversion {
+  public int a =20;
+
+	void add() { System.out.println();
+	 
+
+}
+}
