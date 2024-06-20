@@ -1,0 +1,10 @@
+package p04.output;
+
+public class P120ScannerEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

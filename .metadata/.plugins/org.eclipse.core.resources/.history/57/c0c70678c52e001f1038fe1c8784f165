@@ -1,0 +1,22 @@
+package p02.basic;
+
+public class ConditionalOper {
+//147 String[] args = new String("95")
+	public static void main(String[] args) {// 95
+		// 삼항연산자
+		// Args 숫자 하나 입력 받아서 짝수인지 홀수인지 알려주
+		// "95는 홀수입니다."
+		int score = 95;
+		char grade = (score > 90) ? 'A' : 'B';// 문자하나면 '작은따옴표'
+		System.out.println(grade);// A
+
+		int num = Integer.parseInt(args[0]);// String을 int정수로 바꿔줌
+		String msg = (num % 2 == 0) ? "짝수" : "홀수";
+		System.out.println(num + "은" + msg + "입니다");
+
+//		  int num =95;
+//        String result = (num % 2 != 0) ? num + "홀수입니다" : num + "짝수입니다";
+//        System.out.println(result);
+	}
+
+}

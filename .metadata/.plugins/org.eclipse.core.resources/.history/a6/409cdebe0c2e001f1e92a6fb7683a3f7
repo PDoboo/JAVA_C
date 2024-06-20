@@ -1,0 +1,13 @@
+package p03.cast;
+
+public class P96PromotionEx {
+
+	public static void main(String[] args) {
+		// 자동타입변환
+      byte bytevalue =10;
+      int intValue = byteValue;
+      System.out.println("intvalue:"+intValue);
+      
+	}
+
+}

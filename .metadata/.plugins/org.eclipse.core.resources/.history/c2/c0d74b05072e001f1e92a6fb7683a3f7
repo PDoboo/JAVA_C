@@ -1,0 +1,36 @@
+package p04.output;
+
+import java.io.IOException;
+
+public class P115KeyCodeEx {
+
+	public static void main(String[] args) {
+    int keyCode =0; //메소드 안 지역변수는 반드시 값을 줘야한다.
+//    System.out.println(keyCode);
+    try {
+		keyCode = System.in.read(); //1.문장 검사
+		System.out.println("keyCode:"+keyCode);
+	} catch (IOException e) {
+		//2.문제발생한 경우에 실행
+		e.printStackTrace();
+	}
+     //3.문제가없는경우에 실행 (반드시)
+	  System.out.println("종---------료");
+
+	int key;
+	while(true) {
+		try {
+			key = System.in.read();
+		  System.out.println("key:"+key);//문자입력후 엔터치면(LF(10),CR(13)) 
+		  if(key ==113) {
+			  break;
+		  }
+		}   catch (IOException e) {
+			System.out.println("예외가발생한경우 실행");
+			} 
+		System.out.println("반드시 실행");
+}
+}
+}
+
+

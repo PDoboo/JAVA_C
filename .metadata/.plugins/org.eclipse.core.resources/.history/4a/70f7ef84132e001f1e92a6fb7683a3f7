@@ -1,0 +1,18 @@
+package p03.cast;
+
+public class P99ByteOperationEx {
+
+	public static void main(String[] args) {
+		//정수타입의 연산: 정수연산식에서 모든변수가 int타입으로 되는것은 아니다.
+		//두 피연산자 중 허용범위가 큰 타입으로 변환되어 연산수행
+		//예(int타입보다 작은 byte,short타입은 int타입으로 자동변환됨)
+		byte result1 = 10+20;
+		System.out.println(result1);
+
+		byte x =10;
+		byte y =20;
+		int result2 = x+y;//예(int타입보다 작은 byte,short타입은 int타입으로 자동변환됨)
+		System.out.println(result2);
+	}
+
+}

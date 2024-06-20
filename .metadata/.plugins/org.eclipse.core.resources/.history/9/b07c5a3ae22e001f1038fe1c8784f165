@@ -1,0 +1,11 @@
+package JavaStudy;
+
+public class ToCode {
+
+	public static void main(String[] args) {
+	String a = "자";
+	 System.out.println(a);
+
+	}
+
+}

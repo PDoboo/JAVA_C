@@ -1,0 +1,18 @@
+package p01.variable;
+
+public class ConversionTest {
+
+	public static void main(String[] args) {
+
+	   Conversion c =new Conversion();
+		 System.out.println(c.a);
+	      c.add();
+	      
+	   byte var_byte1 =10; //1byte
+	   int var_int1 = var_byte1;//자동 형변환 작은타입이 큰타입으로 바뀜
+	   System.out.println("var_int1 =" + var_int1);
+	   
+
+	}
+
+}

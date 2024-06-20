@@ -1,0 +1,18 @@
+package p02.basic;
+
+public class CompareOper {
+
+	public static void main(String[] args) {
+		int v1 = (int)1f;
+		double v2 = 1.0; 	
+        System.out.println(v1==v2);//true
+        
+        //소수점 비교시 주의
+        float v3 = 1.1f;//1.0f
+        double v4 = 1.1d;//1.0d
+        System.out.println(v3==v4);// false
+        System.out.println(v3==(float)v4);//true
+        
+	}
+
+}

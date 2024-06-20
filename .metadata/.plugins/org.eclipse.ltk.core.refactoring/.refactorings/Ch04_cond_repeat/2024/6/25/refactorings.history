@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;P01.ifs.IfElseIfElse&apos; to &apos;IfElseIfElseEx&apos;&#x0D;&#x0A;- Original project: &apos;Ch04_cond_repeat&apos;&#x0D;&#x0A;- Original element: &apos;P01.ifs.IfElseIfElse&apos;&#x0D;&#x0A;- Renamed element: &apos;P01.ifs.IfElseIfElseEx&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IfElseIfElse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;P01.ifs{IfElseIfElse.java[IfElseIfElse" matchStrategy="1" name="IfElseIfElseEx" qualified="false" references="true" similarDeclarations="false" stamp="1718862135770" textual="false" version="1.0"/>
+</session>

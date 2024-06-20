@@ -1,0 +1,14 @@
+package p02.basic;
+
+public class ConditionalOper {
+
+	public static void main(String[] args) { 
+		//삼항연산자
+		//Args 숫자 하나 입력 받아서 짝수인지 홀수인지 알려주
+		//"10은 짝수입니다."
+       int score= 95;
+       char grade=(score>90)? 'A' : 'B';//문자하나면 '작은따옴표'
+        System.out.println(grade);//A
+	}
+
+}

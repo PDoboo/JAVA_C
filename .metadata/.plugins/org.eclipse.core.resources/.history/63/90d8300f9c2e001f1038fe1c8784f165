@@ -1,0 +1,23 @@
+package p01.basic;
+
+public class ClassEx {
+		//1. constructor 객체생성시 초기값 저장용도,Ch06 
+		
+	    //2.초기화 블럭- 프로그램 시작시 초기값 사용,
+	
+		//3.field(전역변수,속성)
+            int a =10; // Instance변수는 객체를 생성해야 사용가능, 전역변수
+            static short b =11;//static변수는 바로 사용가능 (객체생성안해도가능)
+            
+        //4.메소드()
+         //static()
+         
+   public static void main(String[] args) {
+	 long c = 1000L; //Instance변수,지역변수
+    // static float d= 2.0f; 사용불가 
+   }
+   void puls() {
+	   System.out.println("s");
+	   System.out.println(a);
+   }
+}

@@ -1,0 +1,20 @@
+package p03.cast;
+
+public class pro {
+
+	public static void main(String[] args) {
+		//자동 타입변환(promotion)-에러발생x
+		//강제 타입변환(casting)-에러발생 ->처리
+		//기본형 타입 크기 : byte<short<int<long<float<double
+		byte b0 =127;//promotion (byte->byte)
+		byte b1 =(byte) 128;//casting (int큰타입->byte작은타입) 
+	    System.out.println(b1);
+	    
+     int a1 = b0;//promotion (작은타입을 큰타입에 저장하는 경우)
+     byte by1 =65;
+     char ch2 =(char) by1;
+     System.out.println(ch2);
+     
+	}
+
+}

@@ -1,0 +1,22 @@
+package p02.basic;
+
+public class SingOperatorEx {//class는 객체를 만들기 위한 틀, template
+//instance 생성된 객체 하나하나
+	//class 안에 사용할수 있는 내용 4가지 
+	//1.변수 
+	int a =1; //인스턴스변수(객체를생성해야 사용가능 RAM안에 상주) 위치상으로 전역변수
+	static short b =2; //static()은 RAM에 상주해 직접 CPU에서 사용가능
+	//2.메소드 
+	
+	public static void main(String[] args) { // 이 부분은 메인 메소드-프로그램 시작을 알려줌
+		byte c = 12;
+		System.out.println(c);
+		System.out.println(SingOperatorEx.b);
+       
+		//객체생성은 클래스를 통째로 RAM 에 복사해 CPU에서 실시간 사용가능
+		SingOperatorEx se = new SingOperatorEx(); //class 객체 생성 int a =1 값 출력 위해 참조변수생성
+		System.out.println(se.a); // se의 int a =1 을 (se.a)주소값 적용  
+	
+	}
+
+}

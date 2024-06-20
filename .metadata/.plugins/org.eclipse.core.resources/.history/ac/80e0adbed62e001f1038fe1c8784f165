@@ -1,0 +1,17 @@
+package P124;
+
+public class P136 {
+
+	public static void main(String[] args) {
+		boolean play = true;
+		System.out.println(true);
+		
+		play = !play;
+		System.out.println(play);
+		
+		play = !play;
+		System.out.println(play);
+
+	}
+
+}

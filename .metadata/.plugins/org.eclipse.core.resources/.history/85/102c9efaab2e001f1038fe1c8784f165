@@ -1,0 +1,11 @@
+package p04.output;
+//입력방법 - read(),scanner,argument인수(args)
+//Args 입력방법 사용하기
+public class ArgsEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

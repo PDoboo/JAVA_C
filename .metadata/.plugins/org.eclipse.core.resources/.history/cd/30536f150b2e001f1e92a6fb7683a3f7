@@ -1,0 +1,18 @@
+package p04.output;
+//java,lang을 제외한 곳에 있으면 반드시 표시해줘야 함(import)-java.lang은 default
+import java.util.Scanner;
+
+public class P118ScannerEx {
+
+	public static void main(String[] args) {
+		//System.on.read()
+	Scanner sc = new Scanner(System.in); //Scanner의 명령문장
+	String str; 
+	
+     while(true) {
+    	str = sc.nextLine();
+    	System.out.println("입력된문자열:\"");
+     }
+	}
+
+}

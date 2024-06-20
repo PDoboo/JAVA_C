@@ -1,0 +1,20 @@
+package p03.cast;
+
+public class P100LongOperationEx {
+
+	int a=10;
+	public static void main(String[] args) {
+		byte b1 =10;
+		int i1 =100;
+		long l1 =1000l;//long타입 자동형변환(promotion)
+		long l2 =b1+i1+l1;//가장큰타입이 기준이되어 연산
+		System.out.println(l2);
+
+	}
+    public void main2() {
+		
+
+	}
+
+
+}

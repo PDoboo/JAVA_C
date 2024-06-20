@@ -1,0 +1,24 @@
+package Variables;
+
+public class DatatypeTest {
+
+	public static void main(String[] args) {
+		
+		//char
+		char var_char =66;
+		char var_char ='A';
+		char var_char ='\u0041';
+		
+		//출력
+		System.out.println("var_boolean ="+ var_boolean);
+		System.out.println("var_byte ="+ var_byte);
+		System.out.println("var_short ="+ var_short);
+		
+		System.out.println("var_int ="+ var_int);
+		System.out.println("var_long ="+ var_long);
+		System.out.println("var_float ="+ var_float);
+		System.out.println("var_double ="+ var_double);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package p03.cast;
+
+public class pro {
+
+	public static void main(String[] args) {
+		//자동 타입변환(promotion)-에러발생x
+		//강제 타입변환(casting)-에러발생 ->처리
+		
+		byte b1 =10; //127까지 입력하는건 가능 128은 에러
+		
+
+	}
+
+}

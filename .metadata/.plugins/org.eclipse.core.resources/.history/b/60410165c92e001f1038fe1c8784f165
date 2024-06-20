@@ -1,0 +1,22 @@
+package P01.ifs;
+
+public class IfElseIfElseEx {
+
+	public static void main(String[] args) {
+		// 점수 100~90:A
+		//      89~80:B
+        //      79~70:C
+		//      69~60:D
+		
+		int score = 85;
+		
+		if(score>=90) {
+			System.out.println("등급:A");
+		} else if(score>=80) {
+			System.out.println("등급:B");
+		} else if (score>=70) {
+			System.out.println("등급:C");
+		} else  {
+			System.out.println("등급:D");
+
+}

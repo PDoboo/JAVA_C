@@ -1,0 +1,32 @@
+package p01.basic;
+
+public class ClassEx {
+		//1. constructor 객체생성시 초기값 저장용도,Ch06 
+		
+	    //2.초기화 블럭- 프로그램 시작시 초기값 사용,
+	
+		//3.field(전역변수,속성)
+            int a =10; // Instance변수는 객체를 생성해야 사용가능, 전역변수
+		
+            static short b =11;//static변수는 바로 사용가능 (객체생성안해도가능)
+           
+        //4.메소드()
+         //static()   
+   public static void main(String[] args) { //main static void main(){프로그램의 시작점,실행될 변수,메소드를 여기 안에작성
+	 long c = 1000L; //Instance변수,지역변수
+    // static float d= 2.0f; 사용불가 
+	 
+	 //객체생성하기 : 위에 public class의 클래스명 을 static에 가지고오기
+	 ClassEx ce = new ClassEx(); //int a = 10;을 출력하기 위해 객체를 생성함.
+	 System.out.println(ce.a);//ce란 객체의 주소가 생김(ce.a)
+	 
+	   System.out.println(b);
+	   System.out.println(ClassEx.b);//(클래스이름.변수명);-클래스가 다를 경우에 반드시 써야함
+	   System.out.println(c);
+   
+   }
+   void puls() { //인스턴스()-객체생성
+	   System.out.println("s");
+	
+   }
+}

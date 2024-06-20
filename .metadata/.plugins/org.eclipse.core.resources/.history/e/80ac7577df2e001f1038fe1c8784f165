@@ -1,0 +1,12 @@
+
+package ChatTest;
+
+public class CharTest{
+
+	public static void main(String[] args) {
+	 String v = "B";
+	 System.out.println(v);
+	 System.out.printf(v);
+	 
+	}
+	}

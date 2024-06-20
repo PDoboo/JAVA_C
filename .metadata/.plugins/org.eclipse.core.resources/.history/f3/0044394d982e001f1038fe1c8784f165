@@ -1,0 +1,26 @@
+package p03.cast;
+
+public class P110var {
+
+	public static void main(String[] args) {
+		//2+1.8+2.5+3.9 = 가 9가 나오게 하기
+//	    long var1 =2L;
+//		float var2 = 1.8f;	
+//		double var3 =2.5;
+//		int intValue =(int)doublevar3;
+//		int result2 = (int)(intValue);
+////		System.out.println(result2);
+//		
+		String var4 = "3.9";
+		double value = Double.parseDouble(var4);
+		int intValue = (int)double value;
+		
+//	     int value = Integer.parseInt(var4);
+//    	System.out.println(value);
+		
+//		int result =(int) (var1+result2+var5);
+//				System.out.println(result);
+
+	}
+
+}
